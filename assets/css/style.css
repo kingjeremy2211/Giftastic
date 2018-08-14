@@ -1,0 +1,51 @@
+body{
+	background: url("../images/rapgame3.jpg");
+	background-size: 100%;
+    background-repeat: no-repeat;
+    color: black;
+}
+* {
+	box-sizing: border-box;
+}
+img { 
+    height: 150px;
+    width: 150px;
+}
+h3 {
+    text-align: center;
+}
+.btn {
+    margin: 3px;
+    background-color: #999999;
+    border-color: #fff;
+}
+.btn:hover {
+    transform: rotate(-4deg) scale(1.1, 1.1);
+    background-color: deeppink;
+}
+.gifDiv{
+    float: left;
+    margin: 3px;
+}
+.container {
+	background-color: #fff;
+	opacity: 0.8;
+	padding: 20px;
+}
+.jumbotron {
+    background-color: inherit;
+}
+.jumbotron .h1, .jumbotron h1 {
+    text-align: center;
+}
+#copyright{
+	font-size: 14px;
+}
+div#footer {
+	clear: both;
+	margin-top: 40px;
+	position: center;
+	bottom: 0;
+	left: 0;
+	text-align: center;
+}
