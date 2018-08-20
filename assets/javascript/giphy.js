@@ -9,7 +9,7 @@ $( document ).ready(function() {
         for (var i = 0; i < rappers.length; i++){
             var gifButton = $("<button>");
             gifButton.addClass("rapper");
-            gifButton.addClass("btn btn-primary")
+            gifButton.addClass("btn btn-primary");
             gifButton.attr("data-name", rappers[i]);
             gifButton.text(rappers[i]);
             $("#gifButtonsView").append(gifButton);
